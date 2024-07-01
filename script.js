@@ -62,7 +62,7 @@ function play(){
         return;
     }
     if(history.includes(userValue)===true){
-        resultAre.textContent = "이미 입력한 숫자입니다."
+        resultAre.textContent = "목숨이 아깝지 않나? 크킄"
         return;
     }
 
@@ -82,7 +82,7 @@ function play(){
         console.log("Down!!!")
     }
     else{
-        resultAre.textContent = "정답!!!";
+        resultAre.textContent = "크크크 운이 좋군...";
         playButton.disabled = true;
         
     }
